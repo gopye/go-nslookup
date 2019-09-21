@@ -1,16 +1,15 @@
 # go-nslookup
-This library is ment as a toy. I built it to learn about golang and dns.
+Clone of nslookup using Go. Server is the DNS server used to get your results.
 
 To use run:
 
-`$ ./go-nslookup testdomain.com`
-
+`./go-nslookup eff.org`
 
 ```
-Server:          127.0.0.53
-Address:         127.0.0.53#53
+Server:          208.67.222.220
+Address:         208.67.222.220#53
 
 Non-authoritative answer:
-Name:    testdomain.com
-Address:  104.200.22.130
+Name:    eff.org
+Address:  173.239.79.196
 ```
